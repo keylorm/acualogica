@@ -87,12 +87,12 @@
     <?php print render($page['header']); ?>
 
   </header>
-
+<?php print $breadcrumb; ?>
   <div id="main">
 
     <div id="content" class="column" role="main">
       <?php print render($page['highlighted']); ?>
-      <?php print $breadcrumb; ?>
+      
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
@@ -150,9 +150,13 @@
     <?php endif; ?>
 
   </div><!-- /#main -->
-
-  <?php print render($page['footer']); ?>
+  <?php print render($page['prefooter']); ?>
+  
 
 </div><!-- /#page -->
-
+<div id="content-footer">
+<?php print render($page['footer']); ?>
+</div>
+<div id="content-bottom">
 <?php print render($page['bottom']); ?>
+</div>

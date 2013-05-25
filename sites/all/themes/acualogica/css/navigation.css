@@ -32,6 +32,7 @@ ul li.leaf {
 
 li a.active {
   color: #000;
+  text-decoration: none;
 }
 
 /*
@@ -40,6 +41,26 @@ li a.active {
 
 #navigation {
   /* overflow: hidden; */ /* Sometimes you want to prevent overlapping with main div. */
+  font-family:  'Open Sans', sans-serif;
+   font-size: 14px;
+   color: #777777;
+   text-decoration: none;
+   
+}
+
+
+#navigation ul li a{
+  /* overflow: hidden; */ /* Sometimes you want to prevent overlapping with main div. */
+   text-decoration: none;
+   color: #777777;
+  
+}
+
+#navigation ul li a:active{
+  /* overflow: hidden; */ /* Sometimes you want to prevent overlapping with main div. */
+   text-decoration: none;
+   color: #000;
+  
 }
 
 #navigation .block {
@@ -66,7 +87,7 @@ li a.active {
 #navigation ul.links li,
 #navigation ul.menu li { /* A simple method to get navigation links to appear in one line. */
   float: left; /* LTR */
-  padding: 0 10px 0 0; /* LTR */
+  padding: 0 10px; /* LTR */
   list-style-type: none;
   list-style-image: none;
 }
