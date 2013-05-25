@@ -87,9 +87,10 @@
     <?php print render($page['header']); ?>
 
   </header>
-<?php print $breadcrumb; ?>
-  <div id="main">
 
+  <div id="main">
+<?php print $breadcrumb; ?>
+      <?php print $messages; ?>
     <div id="content" class="column" role="main">
       <?php print render($page['highlighted']); ?>
       
@@ -99,7 +100,7 @@
         <h1 class="title" id="page-title"><?php print $title; ?></h1>
       <?php endif; ?>
       <?php print render($title_suffix); ?>
-      <?php print $messages; ?>
+      
       <?php print render($tabs); ?>
       <?php print render($page['help']); ?>
       <?php if ($action_links): ?>
@@ -152,7 +153,7 @@
   </div><!-- /#main -->
   <?php print render($page['prefooter']); ?>
   
-
+  <hr class="lineafinal">
 </div><!-- /#page -->
 <div id="content-footer">
 <?php print render($page['footer']); ?>

@@ -203,5 +203,103 @@ h2.block-title { /* Block title */
     padding: 0px;
 }
 
+#block-menu-menu-menu-interno-acualogica, #block-block-9, #block-block-10{
+    
+    width:285px;
+    margin: auto;
+}
+#block-menu-menu-menu-interno-acualogica,  #block-block-11{
+    background-color: #fff;
 
+}
+
+#block-block-11{
+    padding: 0px 0 0 28px;
+    width: 255px;
+    height: 48px;
+    margin: auto;
+}
+
+#block-block-11 img{
+    margin: 8px 0 0 0;
+}
+#block-menu-menu-menu-interno-acualogica ul li{
+   color: #DDDDDD;
+   font-family: 'Open Sans', sans-serif;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 14px;
+   height: 32px;
+   list-style: none;
+}
+
+#block-menu-menu-menu-interno-acualogica ul li a:visited{
+   color: #DDDDDD;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+
+#block-menu-menu-menu-interno-acualogica ul li a{
+   color: #DDDDDD;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+
+#block-menu-menu-menu-interno-acualogica ul li.menu-id1{
+      background: #FFF url(../images/menu-interno-quienes-normal.png) right no-repeat;
+   margin: 0 0 0 -30px;
+   padding: 11px 0 0 28px;
+   width: 257px;
+}
+
+#block-menu-menu-menu-interno-acualogica ul li.menu-id1.active-trail{
+   color: #FFF;
+   text-decoration: none;
+   text-transform: uppercase;
+   background: #85BB3E url(../images/menu-interno-quienes-activo.png) right no-repeat;
+   margin: 0 0 0 -30px;
+   padding: 11px 0 0 28px;
+   width: 257px;
+}
+
+#block-menu-menu-menu-interno-acualogica ul li.menu-id2{
+      background: #FFF url(../images/menu-interno-clientes-normal.png) right no-repeat;
+   margin: 0 0 0 -30px;
+   padding: 11px 0 0 28px;
+   width: 257px;
+}
+
+#block-menu-menu-menu-interno-acualogica ul li.menu-id2.active-trail{
+   color: #FFF;
+   text-decoration: none;
+   text-transform: uppercase;
+   background: #85BB3E url(../images/menu-interno-clientes-activo.png) right no-repeat;
+   margin: 0 0 0 -30px;
+   padding: 11px 0 0 28px;
+   width: 257px;
+}
+
+#block-menu-menu-menu-interno-acualogica ul li.menu-id3{
+      background: #FFF url(../images/menu-interno-testimonios-normal.png) right no-repeat;
+   margin: 0 0 0 -30px;
+   padding: 11px 0 0 28px;
+   width: 257px;
+}
+
+#block-menu-menu-menu-interno-acualogica ul li.menu-id3.active-trail{
+   color: #FFF;
+   text-decoration: none;
+   text-transform: uppercase;
+   background: #85BB3E url(../images/menu-interno-testimonios-activo.png) right no-repeat;
+   margin: 0 0 0 -30px;
+   padding: 11px 0 0 28px;
+   width: 257px;
+}
+
+#block-menu-menu-menu-interno-acualogica ul li.menu-id4{
+      background: #FFF url(../images/menu-interno-nuestrosueno-normal.png) right no-repeat;
+   margin: 0 0 0 -30px;
+   padding: 11px 0 0 28px;
+   width: 257px;
+}
 

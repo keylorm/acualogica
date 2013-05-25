@@ -129,6 +129,10 @@ body {
 }
 
 .breadcrumb { /* The path to the current page in the form of a list of links */
+    background-color: #CCCCCC;
+    border-radius: 2px 2px 2px 2px;
+    height: 26px;
+    padding: 2px 0 0 4px;
 }
 .breadcrumb ol {
   margin: 0;
@@ -139,6 +143,8 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  background-color: #FFF;
+  padding-right: 15px;
 }
 
 h1.title, /* The title of the page */
@@ -246,7 +252,9 @@ span.field-label { /* The inline field label used by the Fences module */
 
 .region-sidebar-second {
     background-color: #E8E7E6;
-    width: 320px;
+    width: 320px !important;
+    float: right !important;
+    margin: 0 !important;
 }
 
 /*
@@ -309,31 +317,36 @@ span.field-label { /* The inline field label used by the Fences module */
 }
 
 #content{
-    width: 70% !important;
-    
+    width: 100% !important;
+    background-color: #fff;
 }
 
 .region-sidebar-second{
-    float: right !important;
-    width: 320px !important;
-    margin: 0 !important;
+    
 }
 
 #page-title{
     font-family: 'Open Sans', sans-serif;
      font-size: 26px;
      color: #006CB2;
-    
+    width: 630px; 
+    padding: 0 0 0 16px;
 }
 
 h2.titulo-sidebar-interno{
-    
+    font-weight: 300;
     color: #666666;
      font-family: 'Open Sans', sans-serif;
      font-size: 20px;
 }
 
-.node-1 .field-name-body{
-    width: 660px;
-    
+hr.lineafinal{
+    color: #CCC;
+    border-bottom: none;
 }
+
+hr.linea-sidebar{
+    color: #CCC;
+    border-bottom: none;
+}
+    

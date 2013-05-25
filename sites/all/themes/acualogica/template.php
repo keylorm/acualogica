@@ -224,3 +224,16 @@ function STARTERKIT_preprocess_block(&$variables, $hook) {
   //}
 }
 // */
+
+function acualogica_menu_link($variables) {
+  $element = $variables['element'];
+
+  static $item_id = 0;
+  $element['#attributes']['class'][] = 'menu-id' . (++$item_id);
+  $sub_menu = $element['#below'] ? drupal_render($element['#below']) : '';
+
+  $output = l($element['#title'], $element['#href'], $element['#localized_options']);
+
+  return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . '</li>';
+}
+?>

@@ -62,7 +62,7 @@ stylesheets[all][] = css/comments.css
 stylesheets[all][] = css/forms.css
 stylesheets[all][] = css/fields.css
 stylesheets[all][] = css/print.css  
-stylesheets[all][] = http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800
+stylesheets[all][] = http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800
 
 ; Built-in conditional stylesheet support has been removed from Zen 7.x-5.x.
 ; Instead, Zen now adds conditional-comment-included classes to the html
