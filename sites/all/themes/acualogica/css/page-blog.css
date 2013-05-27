@@ -1,0 +1,242 @@
+/* 
+    Document   : page-blog.css
+    Created on : 25/05/2013, 07:28:36 PM
+    Author     : Juan07
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@font-face {
+	font-family: 'MyriadPro';
+	src: url('fonts/MYRIADPRO-REGULAR.OTF'); /* firefox */
+	}
+
+.page-blog #page #main #content {
+    background-color: #F0F0F0;
+}
+
+.page-blog #page #main #content{
+    float: right;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    width: 68% !important;
+}
+
+.page-blog #page #main #content .view-blog {
+    width: 650px;
+}
+
+.page-blog #page #main #content .action-links{
+    display: none;
+}
+
+.page-blog #page #main #content .view-blog .view-content .views-row{
+    margin-left: 10px;
+    float: left;
+}
+
+.page-blog #page #main #content .view-blog .view-content .views-field-field-imagen-blog{
+    margin-bottom: 10px;
+    padding-top: 25px;
+}
+
+.page-blog #page #main #content .view-blog .view-content .views-field-field-imagen-blog img{
+    margin-left: 5px;
+}
+
+.page-blog #page #main #content .view-blog .view-content .views-field-name,
+.page-blog #page #main #content .view-blog .view-content .views-field-created,
+.page-blog #page #main #content .view-blog .view-content .views-field-field-tags-blog{
+    padding-left: 20px;
+    margin-left: 10px;
+    float: left;
+    color: #C0C0C7;
+    font-size: 12px;
+}
+
+.page-blog #page #main #content .view-blog .view-content .views-field-name a,
+.page-blog #page #main #content .view-blog .view-content .views-field-field-tags-blog a,
+.page-blog #page #main #content .view-blog .view-content .views-field-title a{
+    text-decoration: none;
+    font-family: 'MyriadPro', sans-serif;
+    color: #C0C0C7
+}
+
+.page-blog #page #main #content .view-blog .view-content .views-field-comment-count{
+    background-color: #8FAC0D;
+    border-radius: 9px 9px 9px 9px;
+    color: #FFFFFF;
+    float: right;
+    font-family: 'MyriadPro',sans-serif;
+    font-size: 12px;
+    padding: 3px 15px;
+    line-height: 13.5px;
+    margin-right: 5px; 
+}
+
+.page-blog #page #main #content .view-blog .view-content .views-field-body {
+    font-family: 'MyriadPro',sans-serif;
+    border-bottom: 1px solid #CCCCCC;
+    font-size: 12px; 
+    color: #333333;
+    width: 100%;
+    margin-left: 10px;
+    float: left;
+    margin-bottom: 25px;
+}
+
+.page-blog #page #main #content .view-blog .view-content .views-field-body p {
+    width: 95%;
+}
+
+.page-blog #page #main #content .view-blog .view-content .views-field-title {
+    border-top: 1px solid #CCCCCC;
+    float: left;
+    font-family: 'MyriadPro',sans-serif;
+    font-size: 24px;
+    height: 25px;
+    margin: 10px 4px 0;
+    padding-top: 30px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.page-blog #page #main #content .view-blog .view-content .views-field-title a{
+    color: #333333;
+}
+
+.page-blog #page #main #content .view-blog .view-content .views-field-name {
+   background: url("../images/autor-logo-blog.png") no-repeat scroll 0 5px transparent;
+}
+
+.page-blog #page #main #content .view-blog .view-content .views-field-created {
+   background: url("../images/created-logo-blog.png") no-repeat scroll 0 5px transparent;
+}
+
+.page-blog #page #main #content .view-blog .view-content .views-field-field-tags-blog {
+   background: url("../images/etiquetas-logo-blog.png") no-repeat scroll 0 3px transparent;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first {
+    float: left;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    width: 32%;
+    margin-top: 25px;
+    background-color: #E8E7E6;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-categorias-bloque-block,
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block,
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-blog-block-1{
+    padding: 10px;
+    width: 93%;
+    border-bottom: 1px solid #CCCCCC; 
+    font-family: 'MyriadPro',sans-serif;
+    float: left;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-categorias-bloque-block{
+    height: 210px;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-categorias-bloque-block h2,
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block h2,
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-blog-block-1 h2{
+    font-family: 'MyriadPro', sans-serif;
+    font-size: 20px;
+    color: #8CAC0C;
+    text-transform: uppercase;
+    float: left;
+    width: 100%;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-categorias-bloque-block .view-categorias-bloque{
+    float: left;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-categorias-bloque-block .view-categorias-bloque ul {
+     margin: 1em 0;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-categorias-bloque-block .view-categorias-bloque .views-field-name{
+    height: 30px;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-categorias-bloque-block .view-categorias-bloque .views-field-name .field-content a{
+    text-decoration: none;
+    color: #535353;
+    font-family: 'MyriadPro', sans-serif;
+    font-size: 16px;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-picture{
+    width: 25%;
+    float: left;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-name,
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-field-ocupacion,
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-body{
+    width: 72%;
+    float: left;
+    margin-left: 3%;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-name,
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-field-ocupacion{
+    height: 15px;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-name a{
+    font-family: 'MyriadPro', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-field-ocupacion{
+    font-family: 'MyriadPro', sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    color: #858585;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-body {
+    font-family: 'MyriadPro', sans-serif;
+    font-size: 12px;
+    color: #666666;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-body p{
+    line-height: 1.5em;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block h2{
+    margin-bottom: 5px;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-blog-block-1 .view-blog .views-field-title .field-content a{
+    text-decoration: none;
+    font-family: 'MyriadPro', sans-serif;
+    font-size: 22px;
+    color: #666666;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-blog-block-1 h2{
+    margin-bottom: 20px;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-blog-block-1 .view-blog .views-field-body .field-content p{
+    font-family: 'MyriadPro', sans-serif;
+    font-size: 12px;
+    color: #868686;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-blog-block-1 .view-blog .views-field-body .field-content .views-more-link{
+    font-family: 'MyriadPro', sans-serif;
+    font-size: 12px;
+    color: #8DAC00;
+    text-decoration: none;
+}

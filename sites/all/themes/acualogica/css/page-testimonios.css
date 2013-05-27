@@ -1,0 +1,108 @@
+/* 
+    Document   : page-testimonios
+    Created on : 26/05/2013, 10:09:14 AM
+    Author     : Juan07
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@font-face {
+	font-family: 'MyriadPro';
+	src: url('fonts/MYRIADPRO-REGULAR.OTF'); /* firefox */
+	}
+
+.page-testimonios #page #main{
+    background-color: #fff;
+}
+
+.page-testimonios #page #main #navigation{
+    background-color: #F5F4F2;
+}
+
+.page-testimonios #page #main #content {
+    float: left;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 67% !important;
+}
+
+.page-testimonios #page #main #content #page-title{
+    font-family: 'MyriadPro', sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    padding: 0 0 0 5px;
+}
+
+.page-testimonios #page #main #content .view-testimonios-block .view-header{
+    font-family: 'MyriadPro', sans-serif;
+    font-size: 14px;
+    color: #433F44;
+}
+
+.page-testimonios #page #main #content .view-testimonios-block .view-header p{
+    margin-left: 20px;
+}
+
+.page-testimonios #page #main #content .view-testimonios-block .view-content .views-row {
+    width: 93%;
+    height: 190px;
+}
+
+.page-testimonios #page #main #content .view-testimonios-block .view-content .views-row .views-field-body .field-content{
+    padding-left: 140px;
+    background: url("../images/testimonios-comillas.png") no-repeat scroll 0 5px transparent;
+}
+
+.page-testimonios #page #main #content .view-testimonios-block .view-content .views-row .views-field-body .field-content p{
+    font-family: 'MyriadPro', sans-serif;
+    font-size: 12px;
+    color: #433F44;
+    width: 98%;
+}
+
+.page-testimonios #page #main #content .view-testimonios-block .view-content .views-row .views-field.views-field-field-ocupacion {
+    font-family: 'MyriadPro', sans-serif;
+    font-size: 12px;
+    color: #433F44;
+    margin-right: 25px !important;
+    line-height: 2.3em;
+}
+
+.page-testimonios #page #main #content .view-testimonios-block .view-content .views-row .views-field.views-field-name a {
+    font-family: 'MyriadPro', sans-serif;
+    font-size: 12px;
+    color: #433F44;
+    text-decoration: none;
+    line-height: 10px;
+}
+
+.page-testimonios #page #main #content .view-testimonios-block .view-content .views-row .views-field.views-field-field-ocupacion,
+.page-testimonios #page #main #content .view-testimonios-block .view-content .views-row .views-field.views-field-name {
+    float: right;
+    margin-right: 15px;
+}
+
+.page-testimonios #page #main #content .view-testimonios-block .view-content .views-row-odd{
+    background: url("../images/testimonios-fondo.png") no-repeat scroll 20px 155px transparent;
+}
+
+.page-testimonios #page #main #content .view-testimonios-block .view-content .views-row-even{
+    background: url("../images/testimonios-fondo-2.png") no-repeat scroll 20px 155px transparent;
+}
+
+.page-testimonios #content #botones-acualogica-productos {
+    float: left;
+    height: 43px;
+    width: 272px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.page-testimonios #content #botones-acualogica-productos #boton-calcular,
+.page-testimonios #content #botones-acualogica-productos #boton-cotizar{
+    float: right;
+}
+
+.page-testimonios #content #botones-acualogica-productos #boton-cotizar {
+    margin-right: 10px;
+}

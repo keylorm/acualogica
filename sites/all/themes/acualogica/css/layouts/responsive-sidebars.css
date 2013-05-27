@@ -211,8 +211,8 @@
   .sidebar-first .region-sidebar-first { /* Span 1 column, starting in 1st column from left. */
     float: left;
     width: 20%;
-    margin-left: 0%;
-    margin-right: -20%;
+    margin-left: 0%; 
+    margin-right: -20%; 
   }
 
   /*

@@ -6,6 +6,11 @@
  */
 
 
+ @font-face {
+	font-family: 'MyriadPro';
+	src: url('fonts/MYRIADPRO-REGULAR.OTF'); /* firefox */
+	}
+ 
 .node { /* Node wrapper */
 }
 
@@ -73,4 +78,153 @@
 .lt-ie8 .node-unpublished p.unpublished > *,
 .lt-ie8 .comment-unpublished > * {
   position: relative; /* Otherwise these elements will appear below the "Unpublished" text. */
+}
+
+
+/* node producto */
+
+.node-type-producto #content {
+    padding-top: 20px;
+}
+
+.node-type-producto #content #page-title {
+    margin-bottom: 15px;
+    padding: 0 0 0 10px;
+    text-transform: uppercase;
+    font-family: 'MyriadPro', sans-serif;
+    font-size: 26px;
+    font-weight: noraml;
+}
+
+.node-type-producto #content .node-producto {
+    width: 950px;
+    margin-left: 5px;
+    font-family: 'MyriadPro', sans-serif;
+}
+
+.node-type-producto #content .node-producto #cotizar-producto {
+    width:  117px;
+    height: 45px;
+    float: right;
+}
+
+.node-type-producto #content .node-producto .field-name-field-imagen {
+    float: left;
+    width: 275px;
+    height: 300px;
+}
+
+.node-type-producto #content .node-producto .field-name-field-imagen img {
+    margin-left: 10px;
+}
+
+.node-type-producto #content .node-producto .field-name-body {
+    color: #666666;
+    float: left;
+    height: 190px;
+    margin-left: 3px;
+    margin-top: 50px;
+    width: 665px;
+}
+
+.node-type-producto #content .node-producto .field-name-body p {
+    font-size: 14px;
+    text-shadow: 1px 1px 1px #E2E2E2;
+}
+
+.node-type-producto #content .node-producto #node_producto_full_group_detalle {
+    border: 0 none;
+    float: left;
+    height: 310px;
+    margin: 40px 0 0;
+    padding: 0;
+    width: 970px;
+}
+
+.node-type-producto #content .node-producto #node_producto_full_group_detalle .fieldset-wrapper {
+    border-top: 1px solid #999999;
+    height: 255px;
+    margin-left: -15px;
+    margin-top: 15px;
+    padding-top: 10px;
+    width: 980px
+}
+
+.node-type-producto #content .node-producto #node_producto_full_group_detalle .fieldset-legend {
+    background: none;
+}
+
+.node-type-producto #content .node-producto #node_producto_full_group_detalle .fieldset-legend a{
+    text-decoration: none;
+    color: #666666;
+    font-family: 'MyriadPro', sans-serif;
+    font-size: 26px;
+    letter-spacing:6px;
+}
+
+.node-type-producto #content .node-producto #node_producto_full_group_detalle .fieldset-wrapper .field-name-field-imagen-de-dise-o {
+    width: 516px;
+    height: 296px;
+    float: left;
+    margin-left: 20px;
+}
+
+.node-type-producto #content .node-producto #node_producto_full_group_detalle .fieldset-wrapper .field .field-label{
+    width: 180px;
+    font-weight: normal;
+}
+
+.node-type-producto #content .node-producto #node_producto_full_group_detalle .fieldset-wrapper .field-name-field-largo {
+    margin-top: 60px;
+}
+
+.node-type-producto #content .node-producto #node_producto_full_group_detalle .fieldset-wrapper .field-name-field-largo,
+.node-type-producto #content .node-producto #node_producto_full_group_detalle .fieldset-wrapper .field-name-field-profundidad{
+    width: 422px;
+    height: 27px;
+}
+
+.node-type-producto #content .node-producto #node_producto_full_group_detalle .fieldset-wrapper .field-name-field-alto,
+.node-type-producto #content .node-producto #node_producto_full_group_detalle .fieldset-wrapper .field-name-field-peso {
+    background: none repeat scroll 0 0 #F5F4F2;
+    height: 27px;
+    width: 422px;
+}
+
+.node-type-producto #content .node-producto #node_producto_full_group_detalle .fieldset-wrapper .field-name-field-largo,
+.node-type-producto #content .node-producto #node_producto_full_group_detalle .fieldset-wrapper .field-name-field-alto,
+.node-type-producto #content .node-producto #node_producto_full_group_detalle .fieldset-wrapper .field-name-field-profundidad,
+.node-type-producto #content .node-producto #node_producto_full_group_detalle .fieldset-wrapper .field-name-field-peso{
+    float: left;
+    margin-left: 22px;
+    color: #666666;
+    font-size: 16px;
+}
+
+
+.node-type-producto #content .node-producto #node_producto_full_group_detalle .fieldset-wrapper .field-name-field-descripcion{
+    float: left;
+    margin: 15px 0 0 22px;
+    color: #666666;
+    font-size: 12px;
+    width: 417px;
+    height: 40px;
+    line-height: 13px;
+}
+
+.node-type-producto #content .node-producto #botones-acualogica-productos {
+    float: right;
+    height: 43px;
+    width: 272px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.node-type-producto #content .node-producto #botones-acualogica-productos #boton-calcular,
+.node-type-producto #content .node-producto #botones-acualogica-productos #boton-cotizar{
+    float: left;
+}
+
+.node-type-producto #content .node-producto #botones-acualogica-productos #boton-cotizar {
+    margin-left: 10px;
 }

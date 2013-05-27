@@ -1,0 +1,51 @@
+/* 
+    Document   : page-productos
+    Created on : 25/05/2013, 03:55:29 PM
+    Author     : Juan07
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+ @font-face {
+	font-family: 'MyriadPro';
+	src: url('fonts/MYRIADPRO-REGULAR.OTF'); /* firefox */
+	}
+
+.page-productos #page #main #content .view-pagina-productos .view-content .views-row {
+    width: 305px;
+    height: 370px;
+    float: left;
+    margin-right: 15px;
+}
+
+.page-productos #page #main #content #page-title{
+    margin: 15px 5px;
+    text-transform: uppercase;
+    font-family: 'MyriadPro', sans-serif;
+    font-size: 26px;
+}
+
+.page-productos #page #main #content .view-pagina-productos .view-content .views-row .views-field-path{
+    height: 38px;
+    margin-left: 85px;
+    margin-top: -12px;
+    width: 118px;
+}
+
+.page-productos #page #main #content .view-pagina-productos .view-content .views-row .views-field-title {
+    margin: 0 10px 10px;
+    font-family: 'MyriadPro', sans-serif;
+    font-size: 18px;
+    width: 278px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.page-productos #page #main #content .view-pagina-productos .view-content .views-row .views-field-title a {
+    color: #006CB2;
+    text-decoration: none;
+}
+
+.page-productos #page #main #content {
+    background: #F5F4F2
+}

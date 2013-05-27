@@ -87,17 +87,33 @@
     <?php print render($page['header']); ?>
 
   </header>
-
+    
   <div id="main">
 <?php print $breadcrumb; ?>
+      
+  <!-- Banner -->  
+    <div id="banner">
+        <?php $banner = render($page['banner']); ?>
+        <?php if($banner):?>
+            <?php print render($page['banner']); ?>
+        <?php endif; ?>
+    </div>    
+  <!-- End banner -->
+  
       <?php print $messages; ?>
     <div id="content" class="column" role="main">
       <?php print render($page['highlighted']); ?>
-      
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
-        <h1 class="title" id="page-title"><?php print $title; ?></h1>
+      <!-- verificamos si el titulo de la pagina pertenece a testimonios o clientes para realizar un overrriden -->
+        <h1 class="title" id="page-title">
+            <?php if(($title == "Testimonios") || ($title == "Clientes")):?>
+            <?php  print "Acualógica - ".$title ?>
+            <?php else: ?>
+            <?php  print $title ?>
+            <?php endif; ?>
+        </h1>
       <?php endif; ?>
       <?php print render($title_suffix); ?>
       
