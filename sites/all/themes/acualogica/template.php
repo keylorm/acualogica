@@ -236,4 +236,52 @@ function acualogica_menu_link($variables) {
 
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . '</li>';
 }
+
+function acualogica_breadcrumb($variables){
+/* $breadcrumb = $variables['breadcrumb'];
+$breadcrumb_separator=theme_get_setting('breadcrumb_separator','corporateclean');
+
+$show_breadcrumb_home = theme_get_setting('breadcrumb_home');
+if (!$show_breadcrumb_home) {
+array_shift($breadcrumb);
+}
+
+if (!empty($breadcrumb)) {
+$breadcrumb[] = drupal_get_title();
+return '<div class="breadcrumb">' . implode(' <span class="breadcrumb-separator">' . $breadcrumb_separator . '</span>', $breadcrumb) . '</div>';
+}*/
+
+$breadcrumb = $variables['breadcrumb'];
+if (!empty($breadcrumb)) {
+// Provide a navigational heading to give context for breadcrumb links to
+// screen-reader users. Make the heading invisible with .element-invisible.
+$crumbs = '<div class="breadcrumb">';
+$array_size = count($breadcrumb);
+$i = 0;
+while ( $i < $array_size) {
+//$crumbs .= '<div class="breadcrumb-' . $i;
+//if ($i == 0) {
+//$crumbs .= ' first';
+//}
+if($breadcrumb[0] == '<a href="/acualogica/">Inicio</a>') {
+$breadcrumb[0] = '<div id="home-breadcrumb"><a href="/acualogica/" id="home-breadcrumb-icon"><img src="http://localhost:8080/acualogica/sites/all/themes/acualogica/images/bread-home.png"></a></div>';
+$crumbs .= '<div class="breadcrumb-' . $i.' first">' . $breadcrumb[0] . '</div> <div id="breadcrumb-separator"></div> ';
+
+}else
+
+$crumbs .= '<img class="before-bread" src="http://localhost:8080/acualogica/sites/all/themes/acualogica/images/before-bread.png"><div class="breadcrumb-' . $i.'">' . $breadcrumb[$i] . '</div><img class="after-bread" src="http://localhost:8080/acualogica/sites/all/themes/acualogica/images/after-bread.png">';
+$i++;
+}
+if (drupal_get_title()=="Contáctenos"){
+$crumbs .= '<img class="before-bread" src="http://localhost:8080/acualogica/sites/all/themes/acualogica/images/before-bread.png"><div class="breadcrumb-active"><span>Contacto</span></div><img class="after-bread" src="http://localhost:8080/acualogica/sites/all/themes/acualogica/images/after-bread.png"></div>';
+return $crumbs;
+}else{
+    $crumbs .= '<img class="before-bread" src="http://localhost:8080/acualogica/sites/all/themes/acualogica/images/before-bread.png"><div class="breadcrumb-active"><span>'. drupal_get_title() .'</span></div><img class="after-bread" src="http://localhost:8080/acualogica/sites/all/themes/acualogica/images/after-bread.png"></div>';
+return $crumbs;
+    
+}
+}
+}
+
+
 ?>

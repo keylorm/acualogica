@@ -108,7 +108,7 @@
       <?php if ($title): ?>
       <!-- verificamos si el titulo de la pagina pertenece a testimonios o clientes para realizar un overrriden -->
         <h1 class="title" id="page-title">
-            <?php if(($title == "Testimonios") || ($title == "Clientes")):?>
+            <?php if(($title == "Testimonios") || ($title == "Clientes") || ($title == "Quienes Somos")):?>
             <?php  print "Acualógica - ".$title ?>
             <?php else: ?>
             <?php  print $title ?>

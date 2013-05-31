@@ -266,7 +266,6 @@ span.field-label { /* The inline field label used by the Fences module */
  }
 #footer {
     margin: 0 auto;
-    padding-top: 345px;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -331,6 +330,7 @@ span.field-label { /* The inline field label used by the Fences module */
      color: #006CB2;
     width: 630px; 
     padding: 0 0 0 16px;
+    text-transform: uppercase;
 }
 
 h2.titulo-sidebar-interno{
@@ -349,4 +349,171 @@ hr.linea-sidebar{
     color: #CCC;
     border-bottom: none;
 }
+
+.breadcrumb-0{
+    background: url(../images/punta-bread-home.png) no-repeat scroll;
+    padding-left: 6px;
+    width: 40px;
+    float: left;
+    height: 24px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    margin-right: -3px;
+}
+
+.breadcrumb-1{
+    background: url("../images/bg-bread-normal.png") repeat-x scroll 0 0 transparent;
+    float: left;
+    height: 24px;
+    }
+
+.breadcrumb-1 a, .breadcrumb-1 a:visited{
+    color: #7FB239;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.breadcrumb-2{
+    background: url("../images/bg-bread-normal.png") repeat-x scroll 0 0 transparent;
+    float: left;
+    height: 24px;
+    }
+
+.breadcrumb-2 a, .breadcrumb-2 a:visited{
+    color: #7FB239;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.breadcrumb-3{
+    background: url("../images/bg-bread-normal.png") repeat-x scroll 0 0 transparent;
+    float: left;
+    height: 24px;
+    }
+
+.breadcrumb-3 a, .breadcrumb-3 a:visited{
+    color: #7FB239;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.breadcrumb-4{
+    background: url("../images/bg-bread-normal.png") repeat-x scroll 0 0 transparent;
+    float: left;
+    height: 24px;
+    }
+
+.breadcrumb-4 a, .breadcrumb-4 a:visited{
+    color: #7FB239;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.breadcrumb-active{
+    color: #7FB239;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    background: url("../images/bg-bread-normal.png") repeat-x scroll 0 0 transparent;
+    float: left;
+    height: 24px;
+     line-height: 28px;
     
+}
+
+.breadcrumb-active span{
+padding-left: 10px;
+    padding-right: 10px;
+    line-height: 27px;
+}
+img.before-bread{
+    float:left;
+    margin-left: -8px;
+}
+
+img.after-bread{
+    float:left;
+    
+}
+#home-breadcrumb{
+
+    
+}
+#home-breadcrumb-icon{
+    
+    
+}
+
+.page-node-28 div#content{
+    padding-top: 22px;
+    background-color: #F5F4F2;
+}
+
+.texto-contacto{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #666666;
+    
+}
+
+div#subtitulo-contacto{
+    width: 422px;
+    float: right;
+    margin-top: 10px;
+}
+.subtitulo-contacto{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #006CB2;
+    
+}
+
+
+
+#webform-component-nombre-obligatorio label, #webform-component-correo-electronico-obligatorio label, #webform-component-asunto label, #webform-component-mensaje label{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #666666;
+    
+    
+}
+
+#webform-component-nombre-obligatorio input, #webform-component-correo-electronico-obligatorio input, #webform-component-asunto input{
+    width: 298px;  
+}
+
+#webform-component-mensaje textarea{
+    width: 417px;
+    
+}
+
+input#edit-webform-ajax-submit-28{
+    float: right;
+    width: 106px;
+    height: 36px;
+    background: #8FAC0D;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    border: medium none;
+}
+
+
+#webform-ajax-wrapper-28{
+    float: right;
+    padding: 0 0 0 170px;
+    width: 422px; 
+       
+}

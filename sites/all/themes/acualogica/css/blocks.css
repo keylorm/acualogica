@@ -121,6 +121,7 @@ h2.block-title { /* Block title */
     padding: 0 15px 0 0;
     width: 220px;
     margin: 0;
+    padding-top: 300px;
 }
 #block-block-2 h2.block-title {
     font-size: 20px;
@@ -136,6 +137,7 @@ h2.block-title { /* Block title */
     padding: 0 45px;
     width: 195px;
     margin: 0;
+    padding-top: 300px;
 }
 
 #block-block-3 h2.block-title {
@@ -158,6 +160,7 @@ h2.block-title { /* Block title */
     float: left;
     width: 230px;
     margin: 0;
+    padding-top: 300px;
 }
 
 #block-block-4 h2.block-title {
@@ -169,6 +172,7 @@ h2.block-title { /* Block title */
     float: left;
      width: 210px;
      margin: 0;
+     padding-top: 300px;
 }
 
 #block-block-5 h2.block-title {
@@ -224,7 +228,7 @@ h2.block-title { /* Block title */
     margin: 8px 0 0 0;
 }
 #block-menu-menu-menu-interno-acualogica ul li{
-   color: #DDDDDD;
+   color: #777777;
    font-family: 'Open Sans', sans-serif;
    text-decoration: none;
    text-transform: uppercase;
@@ -234,19 +238,19 @@ h2.block-title { /* Block title */
 }
 
 #block-menu-menu-menu-interno-acualogica ul li a:visited{
-   color: #DDDDDD;
+   color: #777777;
    text-decoration: none;
    text-transform: uppercase;
 }
 
 #block-menu-menu-menu-interno-acualogica ul li a{
-   color: #DDDDDD;
+   color: #777777;
    text-decoration: none;
    text-transform: uppercase;
 }
 
 #block-menu-menu-menu-interno-acualogica ul li.menu-id1{
-      background: #FFF url(../images/menu-interno-quienes-normal.png) right no-repeat;
+      background: #FFF url(../images/menu-interno-quienes-normal.png) 90% no-repeat;
    margin: 0 0 0 -30px;
    padding: 11px 0 0 28px;
    width: 257px;
@@ -256,14 +260,21 @@ h2.block-title { /* Block title */
    color: #FFF;
    text-decoration: none;
    text-transform: uppercase;
-   background: #85BB3E url(../images/menu-interno-quienes-activo.png) right no-repeat;
+   background: #85BB3E url(../images/menu-interno-quienes-activo.png) 90% no-repeat;
    margin: 0 0 0 -30px;
    padding: 11px 0 0 28px;
    width: 257px;
 }
 
+#block-menu-menu-menu-interno-acualogica ul li.menu-id1.active-trail a{
+   color: #FFF;
+   text-decoration: none;
+   text-transform: uppercase;
+   
+}
+
 #block-menu-menu-menu-interno-acualogica ul li.menu-id2{
-      background: #FFF url(../images/menu-interno-clientes-normal.png) right no-repeat;
+      background: #FFF url(../images/menu-interno-clientes-normal.png) 90% no-repeat;
    margin: 0 0 0 -30px;
    padding: 11px 0 0 28px;
    width: 257px;
@@ -273,14 +284,21 @@ h2.block-title { /* Block title */
    color: #FFF;
    text-decoration: none;
    text-transform: uppercase;
-   background: #85BB3E url(../images/menu-interno-clientes-activo.png) right no-repeat;
+   background: #85BB3E url(../images/menu-interno-clientes-activo.png) 90% no-repeat;
    margin: 0 0 0 -30px;
    padding: 11px 0 0 28px;
    width: 257px;
 }
 
+#block-menu-menu-menu-interno-acualogica ul li.menu-id2.active-trail a{
+   color: #FFF;
+   text-decoration: none;
+   text-transform: uppercase;
+   
+}
+
 #block-menu-menu-menu-interno-acualogica ul li.menu-id3{
-      background: #FFF url(../images/menu-interno-testimonios-normal.png) right no-repeat;
+      background: #FFF url(../images/menu-interno-testimonios-normal.png) 90% no-repeat;
    margin: 0 0 0 -30px;
    padding: 11px 0 0 28px;
    width: 257px;
@@ -290,16 +308,95 @@ h2.block-title { /* Block title */
    color: #FFF;
    text-decoration: none;
    text-transform: uppercase;
-   background: #85BB3E url(../images/menu-interno-testimonios-activo.png) right no-repeat;
+   background: #85BB3E url(../images/menu-interno-testimonios-activo.png) 90% no-repeat;
    margin: 0 0 0 -30px;
    padding: 11px 0 0 28px;
    width: 257px;
+}
+
+#block-menu-menu-menu-interno-acualogica ul li.menu-id3.active-trail a{
+   color: #FFF;
+   text-decoration: none;
+   text-transform: uppercase;
+   
 }
 
 #block-menu-menu-menu-interno-acualogica ul li.menu-id4{
-      background: #FFF url(../images/menu-interno-nuestrosueno-normal.png) right no-repeat;
+      background: #FFF url(../images/menu-interno-nuestrosueno-normal.png) 90% no-repeat;
    margin: 0 0 0 -30px;
    padding: 11px 0 0 28px;
    width: 257px;
 }
 
+#block-block-12{
+    float: left;
+    margin-top: -505px;
+    width: 400px;
+    padding-left: 47px;
+}
+
+#block-block-12 h2{
+    color: #006CB2;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+
+#info-contacto-1,#info-contacto-2,#info-contacto-3,#info-contacto-4, #info-contacto-5{
+    color: #666666;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 40px;
+}
+
+#info-contacto-4 a, #info-contacto-4 a:visited{
+    color: #8FAC0D;
+    text-decoration: none;
+    
+}
+
+#info-contacto-1{
+    background: url(../images/info-contacto-1.png) scroll left no-repeat;
+    
+}
+
+#info-contacto-2{
+    background: url(../images/info-contacto-2.png) scroll left no-repeat;
+    margin-top: 30px;
+}
+
+#info-contacto-3{
+    background: url(../images/info-contacto-3.png) scroll left no-repeat;
+    margin-top: 30px;
+}
+
+#info-contacto-4{
+    background: url(../images/info-contacto-4.png) scroll left no-repeat;
+    margin-top: 30px;
+}
+
+#info-contacto-5{
+    background: url(../images/info-contacto-5.png) scroll left no-repeat;
+     height: 53px;
+    margin-top: -2px;
+}
+
+#block-webform-client-block-29{
+    text-align: center;
+    
+}
+
+#block-webform-client-block-29 label{
+    color: #333333;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    float: left;
+    
+}
+
+#block-webform-client-block-29 input#edit-submitted-suscribase-a-nuestro-boletin{
+    
+    float: left;
+}
