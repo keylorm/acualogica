@@ -10,7 +10,10 @@
 	font-family: 'MyriadPro';
 	src: url('fonts/MYRIADPRO-REGULAR.OTF'); /* firefox */
 	}
-
+.page-blog #page-title{
+      display: none;      
+            
+}
 .page-blog #page #main #content {
     background-color: #F0F0F0;
 }

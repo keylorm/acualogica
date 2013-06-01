@@ -121,7 +121,8 @@ h2.block-title { /* Block title */
     padding: 0 15px 0 0;
     width: 220px;
     margin: 0;
-    padding-top: 300px;
+    padding-top: 362px;
+    clear: both;
 }
 #block-block-2 h2.block-title {
     font-size: 20px;
@@ -137,7 +138,7 @@ h2.block-title { /* Block title */
     padding: 0 45px;
     width: 195px;
     margin: 0;
-    padding-top: 300px;
+    padding-top: 362px;
 }
 
 #block-block-3 h2.block-title {
@@ -160,7 +161,7 @@ h2.block-title { /* Block title */
     float: left;
     width: 230px;
     margin: 0;
-    padding-top: 300px;
+    padding-top: 362px;
 }
 
 #block-block-4 h2.block-title {
@@ -172,7 +173,7 @@ h2.block-title { /* Block title */
     float: left;
      width: 210px;
      margin: 0;
-     padding-top: 300px;
+     padding-top: 362px;
 }
 
 #block-block-5 h2.block-title {
@@ -385,7 +386,7 @@ h2.block-title { /* Block title */
 
 #block-webform-client-block-29{
     text-align: center;
-    
+    margin-top: 75px;
 }
 
 #block-webform-client-block-29 label{
@@ -393,10 +394,27 @@ h2.block-title { /* Block title */
     font-family: 'Open Sans',sans-serif;
     font-size: 16px;
     float: left;
-    
+    padding-left: 160px;
+    line-height: 37px;
 }
 
 #block-webform-client-block-29 input#edit-submitted-suscribase-a-nuestro-boletin{
-    
+    width: 268px;
+    height: 30px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    color: #000;
     float: left;
+}
+
+#edit-webform-ajax-submit-29{
+    background: none repeat scroll 0 0 #BBBBBB;
+    border: medium none;
+    float: left;
+    height: 36px;
+    width: 105px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 18px;
 }

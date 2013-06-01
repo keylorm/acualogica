@@ -272,6 +272,8 @@ $crumbs .= '<div class="breadcrumb-' . $i.' first">' . $breadcrumb[0] . '</div> 
 $crumbs .= '<img class="before-bread" src="http://localhost:8080/acualogica/sites/all/themes/acualogica/images/before-bread.png"><div class="breadcrumb-' . $i.'">' . $breadcrumb[$i] . '</div><img class="after-bread" src="http://localhost:8080/acualogica/sites/all/themes/acualogica/images/after-bread.png">';
 $i++;
 }
+
+
 if (drupal_get_title()=="Contáctenos"){
 $crumbs .= '<img class="before-bread" src="http://localhost:8080/acualogica/sites/all/themes/acualogica/images/before-bread.png"><div class="breadcrumb-active"><span>Contacto</span></div><img class="after-bread" src="http://localhost:8080/acualogica/sites/all/themes/acualogica/images/after-bread.png"></div>';
 return $crumbs;

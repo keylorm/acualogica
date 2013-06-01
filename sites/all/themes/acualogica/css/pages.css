@@ -261,7 +261,7 @@ span.field-label { /* The inline field label used by the Fences module */
  * Footer
  */
  #content-footer{
-     background: url(../images/footer_bg.png) repeat-x;
+     background: url(../images/footer_bg.png) repeat-x bottom;
      
  }
 #footer {
@@ -270,7 +270,7 @@ span.field-label { /* The inline field label used by the Fences module */
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 11px;
-    height: 580px;
+    height: 700px;
     width: 980px;
 }
 
@@ -341,12 +341,12 @@ h2.titulo-sidebar-interno{
 }
 
 hr.lineafinal{
-    color: #CCC;
+    border-color: #CCCCCC;;
     border-bottom: none;
 }
 
 hr.linea-sidebar{
-    color: #CCC;
+    border-color: #CCCCCC;
     border-bottom: none;
 }
 
