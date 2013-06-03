@@ -1,0 +1,28 @@
+<?php 
+ /**
+  *
+  * Implements hook_block_info(); 
+  *
+  */
+  function recent_tweets_block_info(){
+       $blocks['recent_tweets'] = array(
+            'info' => t('Recent tweets'),
+            'cache' => DRUPAL_NO_CACHE,
+        );
+        return $blocks;
+  }
+
+  /**
+   *
+   * Implements hook_block_view().
+   *
+   */
+    function recent_tweets_block_view($delta=''){
+        switch($delta){
+            case 'recent_tweets':
+                $block['subject'] = t('Tweets Recientes');
+                $block['content'] = function_exists('twitter_pull_render') ? twitter_pull_render('@openpublish',NULL,3) : "";
+                break;
+        }
+        return $block;
+    }

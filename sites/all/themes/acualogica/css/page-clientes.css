@@ -27,13 +27,13 @@
 }
 
 .page-clientes #page #main #content #page-title{
-    font-family: 'MyriadPro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 26px;
     text-transform: uppercase;
 }
 
 .page-clientes #page #main #content .view-clientes .view-header{
-    font-family: 'MyriadPro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #433F44;
 }
@@ -54,7 +54,7 @@
 
 .page-clientes #page #main #content .view-clientes .pager{
     float: right;
-    font-family: 'MyriadPro',sans-serif;
+    font-family: 'Open Sans',sans-serif;
     font-size: 13px;
     margin-bottom: 40px;
     margin-right: 3%;
@@ -95,4 +95,38 @@
 
 .page-clientes #content #botones-acualogica-productos #boton-cotizar {
     margin-right: 10px;
+}
+
+/* Banner */
+.page-clientes #main #banner .banner-clientes img{
+    width: 980px;
+    height: 207px;
+}
+
+.page-clientes #main #banner .banner-clientes .body-content {
+    background: url("../images/fondo-banner-estatico.png") no-repeat scroll 0 0 transparent;
+    height: 74px;
+    margin-top: -15%;
+    overflow: hidden;
+    position: absolute;
+    width: 980px;
+}
+
+.page-clientes #main #banner .banner-clientes .body-content .paragraph {
+    height: 100%;
+    margin-left: 26%;
+    padding-top: 1%;
+    text-align: center;
+    width: 43%;
+}
+
+.page-clientes #main #banner .banner-clientes .body-content .paragraph p {
+    margin: 0px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 26px;
+    color: #fff;
+}
+
+.page-clientes #main #banner{
+    background: none;
 }

@@ -15,7 +15,7 @@
             
 }
 .page-blog #page #main #content {
-    background-color: #F0F0F0;
+    background-color: #F5F4F2;
 }
 
 .page-blog #page #main #content{
@@ -26,7 +26,7 @@
 }
 
 .page-blog #page #main #content .view-blog {
-    width: 650px;
+    width: 100%;
 }
 
 .page-blog #page #main #content .action-links{
@@ -38,67 +38,92 @@
     float: left;
 }
 
-.page-blog #page #main #content .view-blog .view-content .views-field-field-imagen-blog{
-    margin-bottom: 10px;
-    padding-top: 25px;
+.page-blog #page #main #content .view-blog .view-content .field-name-field-imagen-blog{    
+    margin-bottom: 1%;
+    padding-top: 4%;
 }
 
-.page-blog #page #main #content .view-blog .view-content .views-field-field-imagen-blog img{
-    margin-left: 5px;
+.page-blog #page #main #content .view-blog .view-content .field-name-field-imagen-blog img{
+    margin-left: 1%;
 }
 
 .page-blog #page #main #content .view-blog .view-content .views-field-name,
 .page-blog #page #main #content .view-blog .view-content .views-field-created,
 .page-blog #page #main #content .view-blog .view-content .views-field-field-tags-blog{
-    padding-left: 20px;
-    margin-left: 10px;
+    padding-left: 3%;
+    margin-left: 1%;
     float: left;
     color: #C0C0C7;
     font-size: 12px;
 }
 
+
+.page-blog #page #main #content .view-blog .view-content .views-field-created{
+    font-family: 'Open Sans', sans-serif;
+    color: #C0C0C7;
+    font-size: 12px;
+}
+
 .page-blog #page #main #content .view-blog .view-content .views-field-name a,
-.page-blog #page #main #content .view-blog .view-content .views-field-field-tags-blog a,
-.page-blog #page #main #content .view-blog .view-content .views-field-title a{
+.page-blog #page #main #content .view-blog .view-content .views-field-field-tags-blog a{
     text-decoration: none;
-    font-family: 'MyriadPro', sans-serif;
-    color: #C0C0C7
+    font-family: 'Open Sans', sans-serif;
+    color: #C0C0C7;
+    font-size: 12px;
+}
+
+.page-blog #page #main #content .view-blog .view-content .views-field-field-tags-blog {
+    width: auto;
+}
+
+.page-blog #page #main #content .view-blog .view-content .views-field-field-tags-blog .field-item {
+    float: left;
+    margin-right: 8px;
+}
+
+
+.page-blog #page #main #content .view-blog .view-content .views-field-title a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .page-blog #page #main #content .view-blog .view-content .views-field-comment-count{
     background-color: #8FAC0D;
-    border-radius: 9px 9px 9px 9px;
+    border-radius: 10px;
     color: #FFFFFF;
     float: right;
-    font-family: 'MyriadPro',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
-    padding: 3px 15px;
-    line-height: 13.5px;
-    margin-right: 5px; 
+    padding: 0.8% 3%;
+    line-height: 1em;
+    margin-right: 0%; 
 }
 
-.page-blog #page #main #content .view-blog .view-content .views-field-body {
-    font-family: 'MyriadPro',sans-serif;
-    border-bottom: 1px solid #CCCCCC;
-    font-size: 12px; 
+.page-blog #page #main #content .view-blog .views-row{
+    background: url("../images/fondo-linea-blog.png")no-repeat scroll 0 100% transparent;
+}
+
+.page-blog #page #main #content .view-blog .view-content .field-name-body  {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px; 
     color: #333333;
     width: 100%;
-    margin-left: 10px;
+    margin-left: 1%;
     float: left;
-    margin-bottom: 25px;
+    margin-bottom: 10%;
 }
 
-.page-blog #page #main #content .view-blog .view-content .views-field-body p {
+.page-blog #page #main #content .view-blog .view-content .field-name-body  p {
     width: 95%;
 }
 
 .page-blog #page #main #content .view-blog .view-content .views-field-title {
-    border-top: 1px solid #CCCCCC;
+    background: url("../images/fondo-linea-blog.png") no-repeat scroll 0 0 transparent;
     float: left;
-    font-family: 'MyriadPro',sans-serif;
-    font-size: 24px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
     height: 25px;
-    margin: 10px 4px 0;
+    margin: 10px 4px 15px;
     padding-top: 30px;
     text-transform: uppercase;
     width: 100%;
@@ -120,35 +145,148 @@
    background: url("../images/etiquetas-logo-blog.png") no-repeat scroll 0 3px transparent;
 }
 
+.page-blog #page #main #content .view-blog .view-content .social-share {
+    float: right;
+    margin-bottom: 5%;
+    padding-left: 4%;
+    background: url("../images/social-share-icon.png") no-repeat scroll 0 43% transparent
+}
+
+.page-blog #page #main #content .view-blog .view-content .social-share a {
+    text-decoration: none;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 12px;
+    color: #B7B3BA;
+    margin-left: 15px;
+}
+
 .page-blog #page #main .sidebars .region-sidebar-first {
     float: left;
     margin-left: 0% !important;
     margin-right: 0% !important;
     width: 32%;
-    margin-top: 25px;
+    margin-top: 2.4%;
     background-color: #E8E7E6;
+}
+
+.page-blog #page #main #content .view-blog .item-list {
+    margin-top: 10%;
+    float: left;
+    width: auto;
+    height: 10%;
+    margin-left: 50%;
+    border: 1px solid #CFCECD;
+    border-radius: 20px;
+}
+
+.page-blog #page #main #content .view-blog .item-list .pager .pager-first,
+.page-blog #page #main #content .view-blog .item-list .pager .pager-last{
+    display: none;
+}
+
+.page-blog #page #main #content .view-blog .item-list .pager .pager-current{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #4AB551;
+}
+
+.page-blog #page #main #content .view-blog .item-list .pager {
+    margin: 0px;
+}
+
+.page-blog #page #main #content .view-blog .item-list .pager li {
+    padding: 0em 0.5em;
+    border-right: 1px solid #E5E5E5;
+}
+
+.page-blog #page #main #content .view-blog .item-list .pager li a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #868686;
 }
 
 .page-blog #page #main .sidebars .region-sidebar-first #block-views-categorias-bloque-block,
 .page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block,
-.page-blog #page #main .sidebars .region-sidebar-first #block-views-blog-block-1{
-    padding: 10px;
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-blog-block-1,
+.page-blog #page #main .sidebars .region-sidebar-first #block-recent-tweets-recent-tweets{
+    padding: 3%;
     width: 93%;
-    border-bottom: 1px solid #CCCCCC; 
-    font-family: 'MyriadPro',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     float: left;
+    margin-bottom: 0.5em !important;
+}
+
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-recent-tweets-recent-tweets h2{
+    margin-bottom: 5%;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-recent-tweets-recent-tweets .tweets-pulled-listing {
+    padding: 0px;
+    
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-recent-tweets-recent-tweets .tweets-pulled-listing li {
+    float: left;
+    margin-bottom: 5%;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-recent-tweets-recent-tweets .tweets-pulled-listing li .tweet-text,
+.page-blog #page #main .sidebars .region-sidebar-first #block-recent-tweets-recent-tweets .tweets-pulled-listing li .tweet-time{
+    font-size: 12px;
+    float: right;
+    margin-left: 2%;
+    width: 80%;
+    padding-left: 20%;
+    line-height: 1.5em;
+}
+.page-blog #page #main .sidebars .region-sidebar-first #block-recent-tweets-recent-tweets .tweets-pulled-listing li .tweet-text {
+    color: #666666;
+    background: url("../images/tweet-icon.png") no-repeat scroll 0 5% transparent;
+}
+.page-blog #page #main .sidebars .region-sidebar-first #block-recent-tweets-recent-tweets .tweets-pulled-listing li .tweet-text a{
+    text-decoration: none;
+    color: #A5BB32;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-recent-tweets-recent-tweets .tweets-pulled-listing li .tweet-time {
+    text-align: right;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-recent-tweets-recent-tweets .tweets-pulled-listing li .tweet-time a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #A5BB32;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-recent-tweets-recent-tweets .tweets-pulled-listing li .tweet-divider,
+.page-blog #page #main .sidebars .region-sidebar-first #block-recent-tweets-recent-tweets .tweets-pulled-listing li .tweet-author,
+.page-blog #page #main .sidebars .region-sidebar-first #block-recent-tweets-recent-tweets .tweets-pulled-listing li .tweet-authorphoto{
+    display: none;
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-recent-tweets-recent-tweets{
+   background: url("../images/fondo-linea-blog-sidebar.png") no-repeat scroll 0 100% transparent 
 }
 
 .page-blog #page #main .sidebars .region-sidebar-first #block-views-categorias-bloque-block{
-    height: 210px;
+   background: url("../images/fondo-linea-blog-sidebar.png") no-repeat scroll 0 100% transparent
+}
+
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block {
+   background: url("../images/fondo-linea-blog-sidebar.png") no-repeat scroll 0 100% transparent
 }
 
 .page-blog #page #main .sidebars .region-sidebar-first #block-views-categorias-bloque-block h2,
 .page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block h2,
-.page-blog #page #main .sidebars .region-sidebar-first #block-views-blog-block-1 h2{
-    font-family: 'MyriadPro', sans-serif;
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-blog-block-1 h2,
+.page-blog #page #main .sidebars .region-sidebar-first #block-recent-tweets-recent-tweets h2{
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     color: #8CAC0C;
+    font-weight: bold;
     text-transform: uppercase;
     float: left;
     width: 100%;
@@ -162,68 +300,80 @@
      margin: 1em 0;
 }
 
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-categorias-bloque-block .view-categorias-bloque ul {
+    font-size: 8px
+}
+
 .page-blog #page #main .sidebars .region-sidebar-first #block-views-categorias-bloque-block .view-categorias-bloque .views-field-name{
-    height: 30px;
+    height: 7%;
 }
 
 .page-blog #page #main .sidebars .region-sidebar-first #block-views-categorias-bloque-block .view-categorias-bloque .views-field-name .field-content a{
     text-decoration: none;
     color: #535353;
-    font-family: 'MyriadPro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
 
-.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-picture{
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-field-foto-testimonio{
     width: 25%;
     float: left;
 }
 
-.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-name,
-.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-field-ocupacion,
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-field-nombre-completo,
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-field-puesto,
 .page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-body{
     width: 72%;
     float: left;
     margin-left: 3%;
 }
 
-.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-name,
-.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-field-ocupacion{
-    height: 15px;
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-field-nombre-completo,
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-field-puesto{
+    height: 1%;
 }
 
-.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-name a{
-    font-family: 'MyriadPro', sans-serif;
-    font-size: 16px;
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-field-nombre-completo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
     font-weight: bold;
     text-decoration: none;
     color: #000;
+    margin-top: -2%;
 }
 
-.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-field-ocupacion{
-    font-family: 'MyriadPro', sans-serif;
-    font-size: 13px;
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-field-puesto{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
     font-style: italic;
     color: #858585;
+    margin-top: -4%;
 }
 
 .page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-body {
-    font-family: 'MyriadPro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     color: #666666;
+    margin-top: 3%;
+    margin-bottom: 2.5em;
 }
 
-.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-body p{
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .views-field-body .field-content{
     line-height: 1.5em;
 }
 
+.page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block .view-content .views-row {
+    height: 25%;
+}
+
 .page-blog #page #main .sidebars .region-sidebar-first #block-views-testimonios-block-block h2{
-    margin-bottom: 5px;
+    margin-bottom: 2%;
 }
 
 .page-blog #page #main .sidebars .region-sidebar-first #block-views-blog-block-1 .view-blog .views-field-title .field-content a{
     text-decoration: none;
-    font-family: 'MyriadPro', sans-serif;
-    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
     color: #666666;
 }
 
@@ -232,14 +382,16 @@
 }
 
 .page-blog #page #main .sidebars .region-sidebar-first #block-views-blog-block-1 .view-blog .views-field-body .field-content p{
-    font-family: 'MyriadPro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     color: #868686;
+    line-height: 1.4em;
 }
 
 .page-blog #page #main .sidebars .region-sidebar-first #block-views-blog-block-1 .view-blog .views-field-body .field-content .views-more-link{
-    font-family: 'MyriadPro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
+    font-weight: bold;
     color: #8DAC00;
     text-decoration: none;
 }

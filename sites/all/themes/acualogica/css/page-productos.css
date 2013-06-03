@@ -21,7 +21,7 @@
 .page-productos #page #main #content #page-title{
     margin: 15px 5px;
     text-transform: uppercase;
-    font-family: 'MyriadPro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 26px;
 }
 
@@ -34,7 +34,7 @@
 
 .page-productos #page #main #content .view-pagina-productos .view-content .views-row .views-field-title {
     margin: 0 10px 10px;
-    font-family: 'MyriadPro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     width: 278px;
     text-transform: uppercase;
