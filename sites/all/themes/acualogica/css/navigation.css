@@ -45,7 +45,8 @@ li a.active {
    font-size: 14px;
    color: #777777;
    text-decoration: none;
-   
+   padding-left: 0;
+    padding-right: 0;
 }
 
 
@@ -56,10 +57,11 @@ li a.active {
   
 }
 
-#navigation ul li a:active{
+#navigation ul li a.active{
   /* overflow: hidden; */ /* Sometimes you want to prevent overlapping with main div. */
    text-decoration: none;
-   color: #000;
+   color: #777777;
+   font-weight: 700;
   
 }
 

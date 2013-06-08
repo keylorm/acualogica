@@ -132,9 +132,14 @@
             echo "<h2".$title_attributes."><a href=\"".$node_url."\">".$title."</a></h2>";
         echo '</div>';
         //body
+        
         print render($content['body']);
         //body
+        
         print render($content['social_share']);
+        if(drupal_is_front_page()){
+        echo '<div class="leer-mas-blog-home"><a href="'.$node_url.'">leer más</a></div>';        
+        }
     ?>
     
   <?php endif; ?>

@@ -129,10 +129,10 @@
 .page-testimonios #main #banner .banner-clientes .body-content .paragraph,
 .page-node-1 #main #banner .banner-clientes .body-content .paragraph{
     height: 100%;
-    margin-left: 26%;
-    padding-top: 1%;
+    margin: 0 auto;
+    padding-top: 4px;
     text-align: center;
-    width: 43%;
+   
 }
 
 .page-testimonios #main #banner .banner-clientes .body-content .paragraph p,
@@ -141,9 +141,13 @@
     font-family: 'Open Sans',sans-serif;
     font-size: 26px;
     color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 32px;
 }
 
 .page-testimonios #main #banner,
 .page-node-1 #main #banner{
     background: none;
+    margin-top: 18px;
 }

@@ -70,7 +70,7 @@
  */
 ?>
  <div id="headertop">
-        <p>¿sabe usted cuánta agua gasta en un sólo día? - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          <a href="#">averígüelo aquí</a></p>
+        <p>¿sabe usted cuánta agua gasta en un sólo día? - <a href="#">averígüelo aquí</a></p>
  </div>
 <div id="page">
    

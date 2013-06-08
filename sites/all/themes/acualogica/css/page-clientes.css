@@ -114,10 +114,10 @@
 
 .page-clientes #main #banner .banner-clientes .body-content .paragraph {
     height: 100%;
-    margin-left: 26%;
-    padding-top: 1%;
+    margin: 0 auto;
+    padding-top: 4px;
     text-align: center;
-    width: 43%;
+    
 }
 
 .page-clientes #main #banner .banner-clientes .body-content .paragraph p {
@@ -125,8 +125,14 @@
     font-family: 'Open Sans',sans-serif;
     font-size: 26px;
     color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 32px;
 }
 
 .page-clientes #main #banner{
     background: none;
+    margin-top: 18px;
 }
+
+

@@ -55,3 +55,8 @@
   -o-border-radius: 0 0 7px 7px;
   border-radius: 0 0 7px 7px;
 }
+
+#views-nivo-slider-slider_home-block{
+   z-index: 0;
+    
+}
